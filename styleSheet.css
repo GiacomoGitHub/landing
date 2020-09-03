@@ -1,0 +1,55 @@
+#container {
+    background-color: #d9d7ce;
+    color: #4c4b38;
+    text-align: left;
+    display: grid;
+    padding: 3% 5% 5% 7%;
+    font-family: 'Roboto', sans-serif;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header header"
+    "main main main main"
+    "footer footer footer footer";
+}
+
+img {
+    float: left;
+    border-radius: 50%;
+    width: 10%;
+}
+
+h1 {
+    padding-left: 11%;
+}
+
+h4 {
+    padding-left: 11%;
+}
+
+#intro {
+    grid-area: header header header;
+    padding: 2%;
+    font-size: larger;
+}
+
+#mindfulness {
+    grid-area: main main main main;
+    padding: 2%;
+}
+
+#programming {
+    grid-area: main main main main;
+    padding: 2%;
+}
+
+#photography {
+    grid-area: main main main main;
+    padding: 2%;
+}
+
+#footer {
+    grid-area: footer footer footer footer;
+    padding: 2%;
+    font-size: small;
+}
