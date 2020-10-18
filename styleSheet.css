@@ -1,15 +1,16 @@
 @viewport {
-    width: device-width ;
-    zoom: 1.0 ;
+    width: device-width;
+    zoom: 1.0;
   }
   
   body {
     background-color: black;
-    font-size: large;
+    color: rgb(219, 219, 211);
+    font-family: 'Roboto', sans-serif;
 }
 
 .fade-in {
-    animation: fadeIn ease 1s;
+    animation: fadeIn ease 1.7s;
 }
 
 @keyframes fadeIn {
@@ -17,36 +18,33 @@
     100% {opacity: 1;}
 }
 
-#container {
-    background-color: black;
-    color: rgb(219, 219, 211);
+#title {
+    font-size: 500%;
+    padding: 2%;
     text-align: left;
-    display: grid;
-    padding: 3% 10% 3% 20%;
-    font-family: 'Roboto', sans-serif;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "header header header header header"
-    "main main main main"
-    "footer footer footer footer";
+}
+
+#bio {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 300%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 img {
-    float: left;
     border-radius: 50%;
-    width: 10%;
+    width: 200px;
+    margin: auto;
 }
 
-h1 {
-    padding-left: 11%;
-}
-
-h5 {
-    margin-top: -2.5%;
-    padding-left: 11%;
-    color: grey;
-    font-weight: lighter;
+#links {
+    font-size: 320%;
+    text-align: center;
+    padding: 2%;
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
 
 a {
@@ -57,26 +55,16 @@ a:hover {
     color: white;
 }
 
-#intro {
-    grid-area: header header header;
-    padding: 2%;
-    font-size: larger;
-}
-
-#mindfulness {
-    grid-area: main main main main;
-    padding: 2%;
-}
-
 #programming {
-    grid-area: main main main main;
+    text-align: center;
+    font-size: 320%;
     padding: 2%;
-    float: right;
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
 
 #footer {
-    grid-area: footer footer footer footer;
     padding: 2%;
-    font-size: small;
-    bottom:0;
+    font-size: 80%;
+    text-align: center;
 }
