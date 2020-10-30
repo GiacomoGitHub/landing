@@ -7,6 +7,8 @@
     background-color: black;
     color: rgb(219, 219, 211);
     font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .fade-in {
@@ -19,9 +21,23 @@
 }
 
 #title {
-    font-size: 500%;
-    padding: 2%;
+    font-size: 550%;
     text-align: left;
+    padding: 2%;
+    opacity: 80%;
+}
+
+#giacomo {
+    font-weight: bolder;
+}
+
+#innocenti {
+    margin-top: -10%;
+    font-weight: lighter;
+}
+
+#podda {
+    margin-top: -10%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -35,7 +51,8 @@
     margin-top: 10%;
     margin-bottom: 10%;
     font-size: 300%;
-    text-align: center;
+    font-weight: lighter;
+    text-align: right;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -48,7 +65,8 @@ img {
 
 #links {
     font-size: 320%;
-    text-align: center;
+    text-align: left;
+    font-weight: lighter;
     padding: 2%;
     margin-top: 20%;
     margin-bottom: 20%;
@@ -64,8 +82,9 @@ a:hover {
 }
 
 #programming {
-    text-align: center;
+    text-align: right;
     font-size: 320%;
+    font-weight: lighter;
     padding: 2%;
     margin-top: 20%;
     margin-bottom: 20%;
@@ -75,6 +94,7 @@ a:hover {
     padding: 2%;
     font-size: 80%;
     text-align: center;
+    font-weight: lighter;
 }
 
 @media (prefers-color-scheme: dark) {
