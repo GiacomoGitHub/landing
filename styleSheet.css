@@ -85,6 +85,15 @@ a:hover {
     transition: color .1s ease-in-out;
 }
 
+#mindfulness {
+    font-size: 320%;
+    text-align: center;
+    font-weight: lighter;
+    padding: 2%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
 #programming {
     text-align: right;
     font-size: 320%;
