@@ -140,3 +140,8 @@ a:hover {
         opacity: 1;
       }
   }
+
+#email {
+    margin-top: 70px;
+    font-weight: bolder;
+}
